@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # The purpose of this script is to enable uploading xdot.py to the Python
 # Package Index, which can be easily done by doing:
@@ -15,10 +15,10 @@ from setuptools import setup
 
 setup(
     name='xdot',
-    version='0.5',
+    version='0.6',
     author='Jose Fonseca',
     author_email='jose.r.fonseca@gmail.com',
-    url='http://code.google.com/p/jrfonseca/wiki/XDot',
+    url='https://github.com/jrfonseca/xdot.py',
     description="Interactive viewer for Graphviz dot files",
     long_description="""
         xdot.py is an interactive viewer for graphs written in Graphviz's dot
